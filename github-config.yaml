@@ -1,0 +1,623 @@
+orgs:
+  AICoE:
+    admins:
+      - accorvin
+      - anishasthana
+      - durandom
+      - goern
+      - sesheta
+      - shgriffi
+      - shuels
+      - vpavlin
+    billing_email: mhild@redhat.com
+    company: "Red Hat, Inc."
+    default_repository_permission: read
+    description:
+      This is Artificial Intelligence Center of Excellence's Repository,
+      we are part of the Red Hat's Office of the CTO
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: Earth (any shape)
+    members:
+      - 4n4nd
+      - aicoe-release-droid
+      - burn2l
+      - cfchase
+      - chauhankaranraj
+      - crobby
+      - dfeddema
+      - EldritchJS
+      - elmiko
+      - erikerlandson
+      - fridex
+      - gmfrasca
+      - harshad16
+      - hemajv
+      - heyselbi
+      - HumairAK
+      - isabelizimm
+      - jkoehler-redhat
+      - KPostOffice
+      - LaVLaS
+      - lucaburatti7
+      - lucferbux
+      - martinpovolny
+      - maulikjs
+      - MichaelClifford
+      - mroman-redhat
+      - nakfour
+      - pacospace
+      - rimolive
+      - sahilsuneja1
+      - saurabhpujar
+      - sesheta-srcops
+      - Shreyanand
+      - sophwats
+      - sub-mod
+      - taneem-ibrahim
+      - tmckayus
+      - TreeinRandomForest
+      - tumido
+      - Xaenalt
+      - xtuchyna
+      - zyh1121
+    members_can_create_repositories: false
+    name: Artificial Intelligence Center of Excellence
+    repos:
+      AI-Stacks-pipeline:
+        description: This is a CentOS CI based pipeline to product optimized AI Stacks
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      Awesome-Data-Science-with-Python:
+        description: Curated list of Python resources for data science.
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      EthicalML-awesome-production-machine-learning:
+        description:
+          A curated list of awesome open source libraries to deploy, monitor,
+          version and scale your machine learning
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+        homepage: https://ethical.institute/principles.html
+      OpenShiftKubeAudit:
+        description:
+          An auditing program to detect incompatibilities in Kubernetes
+          manifests brought over to OpenShift
+        has_projects: true
+        has_wiki: false
+      Varangian:
+        default_branch: main
+        description: Applying Machine Learning to Static Analysis for the Fedora community
+        has_projects: false
+        has_wiki: false
+      ai-ci:
+        archived: true
+        description: This is a continuous integration of a machine learning stack.
+        has_projects: true
+        has_wiki: false
+        private: true
+      aicoe-cd:
+        default_branch: main
+        description: This repository contains artifacts for our ArgoCD Deployment
+        has_projects: false
+        has_wiki: false
+      aicoe-ci:
+        description: AICoE-CI using TektonCD pipelines and triggers
+        has_projects: false
+        has_wiki: false
+      aicoe-sre:
+        description:
+          This repository serves as a central location for services being
+          run by the AICoE SRE team.
+        has_projects: true
+      anomaly-detection-demo-app:
+        has_projects: true
+      benchmarks-tekton:
+        has_projects: true
+      clai:
+        description:
+          "Command Line Artificial Intelligence or CLAI is an open-sourced
+          project from IBM Research aimed to bring the power of AI to the command
+          line interface. "
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+        homepage: https://clai-home.mybluemix.net/
+      common:
+        default_branch: main
+        description:
+          This repository handles a few common things, it is mainly used
+          by our bots...
+        has_projects: true
+      disk-failure-prediction:
+        description:
+          This repository contains notebooks to Download, Preprocess and
+          get started working with the back blaze data
+        has_projects: true
+      edge-tekton-model:
+        archived: true
+        has_projects: true
+      edge-tekton-pipeline:
+        archived: true
+        has_projects: true
+      elyra-aidevsecops-tutorial:
+        description:
+          AIDevSecOps with Thoth and Elyra on ODH/Openshift running on
+          Operate First
+        has_projects: false
+        has_wiki: false
+      experiment-tracking:
+        description: Experiment Tracking for Machine Learning Jobs
+        has_projects: true
+      experiment-tracking-template:
+        has_issues: false
+        has_projects: true
+      frauddetection-producer-consumer:
+        description: FraudDetection Kafka Producer and Consumer
+        has_projects: false
+        has_wiki: false
+      idh-manifests:
+        default_branch: production
+        description:
+          A repository for Open Data Hub Kustomize manifests extending
+          upstream Kubeflow manifests
+        has_projects: true
+      inference:
+        description: Reference implementations of inference benchmarks
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      inference_results_v0.5:
+        description: MLPerf Inference v0.5 Results
+        has_issues: false
+        has_projects: true
+      instrumented-app-go:
+        has_issues: false
+        has_projects: true
+      instrumented-app-prometheus:
+        description: Prometheus and the instrumented app
+        has_projects: true
+      internal-data-hub:
+        default_branch: main
+        description:
+          Deployment Artifacts for all non ODH components used by the Internal
+          Data Hub
+        has_projects: true
+      jupyter-notebooks:
+        default_branch: develop
+        description: OpenShift compatible S2I builder for basic notebook images.
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      jupyterhub-operator:
+        description: Operator for deploying and managing JupyterHub and Jupyter Notebooks
+        has_projects: true
+      kubectl-container:
+        description: Minimal kubectl UBI-based image.
+        has_projects: false
+        has_wiki: false
+      kubeflow:
+        description: Machine Learning Toolkit for Kubernetes
+        has_projects: true
+        has_wiki: false
+      learn-katacoda:
+        description: AICoE fork of the OpenShift learning portal, powered by Katacoda
+        has_projects: false
+        has_wiki: false
+        homepage: https://katacoda.com/aicoe
+      log-anomaly-detector:
+        allow_squash_merge: false
+        description:
+          Log Anomaly Detection - Machine learning to detect abnormal events
+          logs
+        has_projects: false
+        has_wiki: false
+        homepage: https://log-anomaly-detector.readthedocs.io/en/latest/
+      ludus:
+        description:
+          A gamification framework for version control and project tracking
+          tools
+        has_projects: true
+      matmul-pipeline-cpu:
+        description:
+          A tekton pipeline that will build the image from Dockerfile,
+          push the image to quay registry, pull that image and run the cuda code on
+          CPU.
+        has_projects: true
+      matmul-pipeline-gpu:
+        description:
+          A tekton pipeline that will build the image from Dockerfile,
+          push the image to quay registry, pull that image and run the cuda code on
+          GPU.
+        has_projects: true
+      mlflow-tracking-operator:
+        description: MLFlow Tracking Operator for Kubernetes and OpenShift
+        has_projects: true
+      mlperf-inference-tekton-pipeline:
+        has_projects: true
+      mlperf-tekton:
+        description: Tekton Pipelines to run MLPerf benchmarks on OpenShift
+        has_projects: true
+      mlperf-training:
+        description: Reference implementations of training benchmarks
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      mlperf_metric_collection:
+        archived: true
+        description: Script for getting metrics out of pipelinerun
+        has_projects: false
+        has_wiki: false
+      olm-testing-example:
+        has_projects: true
+      olm-testing-example-fork:
+        archived: true
+        description:
+          Here is a short example of how to test an operator bundle with
+          the OLM
+        has_issues: false
+        has_projects: true
+      openshift_kubeflow_workshop:
+        description: Kubeflow on OpenShift
+        has_projects: true
+      peak:
+        has_projects: true
+      peak-fork:
+        archived: true
+        has_issues: false
+        has_projects: true
+      pl-tensorflowapp:
+        description: Chris plugin app pl-tensorflowapp
+        has_projects: false
+        has_wiki: false
+      pricingnbs:
+        has_projects: false
+        has_wiki: false
+      prometheus-anomaly-detector:
+        description:
+          A newer more updated version of the prometheus anomaly detector
+          (https://github.com/AICoE/prometheus-anomaly-detector-legacy)
+        has_projects: true
+        has_wiki: false
+      prometheus-anomaly-detector-legacy:
+        description:
+          A simple application to collect data from a prometheus host and
+          train a model on it
+        has_projects: true
+      prometheus-api-client-python:
+        description: A python wrapper for the prometheus http api
+        has_projects: true
+      prometheus-data-science:
+        description:
+          A collection of analysis, analytics, and machine learning techniques
+          for time series forecasting w/ Prometheus metrics
+        has_issues: false
+        has_projects: true
+      prometheus-flatliner:
+        has_projects: true
+      prometheus-influx:
+        has_projects: true
+      prometheus-lts:
+        description: Store prometheus metrics with thanos
+        has_projects: true
+      prometheus-remote-storage-adapter:
+        has_projects: true
+      prometheus-scraper:
+        has_projects: true
+      pytorch-lda2vec:
+        archived: true
+        description: A PyTorch implementation of lda2vec
+        has_projects: false
+        has_wiki: false
+      repartitioning-sosreports:
+        has_projects: true
+        has_wiki: false
+        homepage: https://bluejeans.com/playback/s/IoprYiljTJIGuhuYm4xjCG722GFjkCYtjPuB51KNv271YxQSnZi9SmcTARxAtxhu
+      repository-knowledge-refresh-job:
+        archived: true
+        has_projects: true
+      robo-doc:
+        default_branch: main
+        has_projects: true
+      s2i-custom-notebook:
+        description:
+          An s2i container image for JupyterHub with custom notebooks and
+          dependencies
+        has_projects: true
+      safety-db:
+        description: A curated database of insecure Python packages
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+        homepage: https://pyup.io
+      sefkhet-abwy:
+        description: This is one of the incarnations of Sesheta
+        has_projects: false
+        has_wiki: false
+      sesheta:
+        description: This bot is doing SrcOps for @thoth-station
+        has_projects: false
+        has_wiki: false
+      starburst-test:
+        description: Tests for the Presto operator in OperatorHub
+        has_projects: true
+      stats-to-serverless-on-OpenShift4:
+        default_branch: development
+        has_issues: false
+        has_projects: true
+      tensorflow-serving-s2i:
+        description: S2I image is for running tensorflow model server on Openshift.
+        has_issues: false
+        has_projects: true
+      tensorflow-wheels:
+        description: TensorFlow Optimized Wheels
+        has_projects: false
+        has_wiki: false
+      tf-in-container:
+        description: Tensorflow in container
+        has_projects: false
+        has_wiki: false
+      tf-serving-in-container:
+        description: Tensorflow Serving in container
+        has_projects: false
+        has_wiki: false
+      thanos-openshift:
+        description: Thanos on OpenShift
+        has_projects: true
+      ultrahook:
+        description: Ultrahook Client for OpenShift
+        has_projects: false
+        has_wiki: false
+      v0.6_mlperf_training_DellC4140:
+        has_issues: false
+        has_projects: true
+      workshop-coding-best-practices:
+        has_issues: false
+        has_projects: false
+        has_wiki: false
+      workshop-intern-bootcamp-git:
+        default_branch: main
+        description: This is a git focused workshop!
+        has_projects: false
+        has_wiki: false
+    teams:
+      AI CI Pipeline:
+        description: ""
+        maintainers:
+          - goern
+        members:
+          - dfeddema
+          - sub-mod
+          - Xaenalt
+        privacy: closed
+        repos:
+          jupyterhub-operator: read
+      AIOps:
+        description: ""
+        maintainers:
+          - durandom
+          - vpavlin
+        members:
+          - martinpovolny
+          - MichaelClifford
+          - hemajv
+          - tumido
+          - Shreyanand
+          - HumairAK
+          - chauhankaranraj
+          - 4n4nd
+          - isabelizimm
+        privacy: closed
+        repos:
+          aicoe-cd: write
+          anomaly-detection-demo-app: read
+          disk-failure-prediction: read
+          jupyterhub-operator: read
+          log-anomaly-detector: write
+          ludus: read
+          mlflow-tracking-operator: read
+          prometheus-anomaly-detector: read
+          prometheus-anomaly-detector-legacy: read
+          prometheus-api-client-python: write
+          prometheus-flatliner: write
+          prometheus-scraper: read
+          s2i-custom-notebook: read
+      Data Hub:
+        description: ""
+        maintainers:
+          - accorvin
+          - anishasthana
+        members:
+          - taneem-ibrahim
+          - lucferbux
+          - gmfrasca
+          - jkoehler-redhat
+        privacy: closed
+      DevOps:
+        description: The DevOps Crew
+        maintainers:
+          - goern
+        members:
+          - harshad16
+          - 4n4nd
+        privacy: closed
+        repos:
+          aicoe-ci: read
+          jupyterhub-operator: read
+          s2i-custom-notebook: admin
+      FDE:
+        description: The Forward Deployed Engineers!
+        maintainers:
+          - goern
+        members:
+          - erikerlandson
+          - sophwats
+        privacy: closed
+        repos:
+          jupyterhub-operator: read
+      IBM Research:
+        description: some of our friends at @ibm-research
+        maintainers:
+          - goern
+        members:
+          - saurabhpujar
+          - sahilsuneja1
+          - zyh1121
+          - lucaburatti7
+          - burn2l
+        privacy: closed
+        repos:
+          Varangian: triage
+      SRE:
+        description: The AI CoE SRE
+        maintainers:
+          - durandom
+          - goern
+          - accorvin
+          - anishasthana
+        members:
+          - hemajv
+          - HumairAK
+          - harshad16
+        privacy: closed
+        repos:
+          aicoe-cd: admin
+          aicoe-sre: maintain
+          jupyterhub-operator: read
+          s2i-custom-notebook: read
+      SourceOps:
+        description: This is our SourceOps team, they keep the source fresh.
+        maintainers:
+          - goern
+          - sesheta
+        members:
+          - harshad16
+          - sesheta-srcops
+        privacy: closed
+        repos:
+          AI-Stacks-pipeline: admin
+          Awesome-Data-Science-with-Python: admin
+          EthicalML-awesome-production-machine-learning: admin
+          OpenShiftKubeAudit: admin
+          Varangian: admin
+          aicoe-cd: admin
+          aicoe-ci: admin
+          aicoe-sre: admin
+          anomaly-detection-demo-app: admin
+          benchmarks-tekton: admin
+          disk-failure-prediction: admin
+          elyra-aidevsecops-tutorial: admin
+          experiment-tracking: admin
+          experiment-tracking-template: admin
+          frauddetection-producer-consumer: admin
+          idh-manifests: admin
+          inference: admin
+          inference_results_v0.5: admin
+          instrumented-app-go: admin
+          instrumented-app-prometheus: admin
+          internal-data-hub: admin
+          jupyter-notebooks: admin
+          jupyterhub-operator: admin
+          kubectl-container: admin
+          kubeflow: admin
+          learn-katacoda: admin
+          log-anomaly-detector: admin
+          ludus: admin
+          matmul-pipeline-cpu: admin
+          matmul-pipeline-gpu: admin
+          mlflow-tracking-operator: admin
+          mlperf-inference-tekton-pipeline: admin
+          mlperf-tekton: admin
+          mlperf-training: admin
+          olm-testing-example: admin
+          openshift_kubeflow_workshop: admin
+          peak: admin
+          pl-tensorflowapp: admin
+          pricingnbs: admin
+          prometheus-anomaly-detector: admin
+          prometheus-anomaly-detector-legacy: admin
+          prometheus-api-client-python: admin
+          prometheus-data-science: admin
+          prometheus-flatliner: admin
+          prometheus-influx: admin
+          prometheus-lts: admin
+          prometheus-remote-storage-adapter: admin
+          prometheus-scraper: admin
+          repartitioning-sosreports: admin
+          robo-doc: admin
+          s2i-custom-notebook: admin
+          safety-db: admin
+          sefkhet-abwy: admin
+          sesheta: admin
+          starburst-test: admin
+          stats-to-serverless-on-OpenShift4: admin
+          tensorflow-serving-s2i: admin
+          tensorflow-wheels: admin
+          tf-in-container: admin
+          tf-serving-in-container: admin
+          thanos-openshift: admin
+          ultrahook: admin
+          v0.6_mlperf_training_DellC4140: admin
+          workshop-coding-best-practices: admin
+          workshop-intern-bootcamp-git: admin
+      rel-eng:
+        description: Release Engineers and Bots
+        maintainers:
+          - goern
+          - sesheta
+        members:
+          - aicoe-release-droid
+        privacy: closed
+        repos:
+          anomaly-detection-demo-app: read
+          disk-failure-prediction: read
+          jupyterhub-operator: read
+          ludus: read
+          mlflow-tracking-operator: read
+          prometheus-anomaly-detector: read
+          prometheus-anomaly-detector-legacy: read
+          prometheus-api-client-python: read
+          prometheus-scraper: read
+          s2i-custom-notebook: read
+          sefkhet-abwy: write
+          sesheta: admin
+          tensorflow-wheels: write
+          tf-in-container: admin
+          tf-serving-in-container: write
+      thoth-station:
+        description: "The Thoth-Station people..."
+        maintainers:
+          - goern
+        members:
+          - fridex
+          - sub-mod
+          - harshad16
+          - KPostOffice
+          - pacospace
+          - xtuchyna
+        privacy: closed
+        repos:
+          anomaly-detection-demo-app: read
+          clai: write
+          disk-failure-prediction: read
+          jupyter-notebooks: write
+          jupyterhub-operator: read
+          kubectl-container: write
+          ludus: read
+          mlflow-tracking-operator: read
+          mlperf-tekton: read
+          mlperf-training: write
+          pl-tensorflowapp: admin
+          prometheus-anomaly-detector: read
+          prometheus-api-client-python: read
+          s2i-custom-notebook: read
+          sefkhet-abwy: admin
+          sesheta: write
+          tensorflow-serving-s2i: admin
+          tensorflow-wheels: write
+          tf-in-container: admin
+          tf-serving-in-container: admin
