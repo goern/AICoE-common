@@ -132,7 +132,8 @@ orgs:
         description:
           This repository handles a few common things, it is mainly used
           by our bots...
-        has_projects: true
+        has_projects: false
+        has_wiki: false
       disk-failure-prediction:
         description:
           This repository contains notebooks to Download, Preprocess and
