@@ -19,7 +19,7 @@ postsubmits:
     skip_report: false
     context: community-management/prow/peribolos
     branches:
-      - master
+      - main
     spec:
       containers:
         - image: gcr.io/k8s-prow/peribolos:latest
