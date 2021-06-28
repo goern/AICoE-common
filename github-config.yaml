@@ -9,6 +9,7 @@ orgs:
       - shgriffi
       - shuels
       - vpavlin
+      - tumido
     billing_email: mhild@redhat.com
     company: "Red Hat, Inc."
     default_repository_permission: read
@@ -58,7 +59,6 @@ orgs:
       - taneem-ibrahim
       - tmckayus
       - TreeinRandomForest
-      - tumido
       - Xaenalt
       - xtuchyna
       - zyh1121
