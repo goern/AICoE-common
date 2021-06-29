@@ -3,8 +3,7 @@ name: Repository archival
 about: Retire and archive an AICoE repository
 title: RETIRE: <repo_name>
 labels: bot
-assignees: '@goern, @tumido'
-
+assignees: goern, tumido
 ---
 
 ### Repository to archive
