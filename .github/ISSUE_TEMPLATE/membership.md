@@ -3,7 +3,7 @@ name: Organization Membership Request
 about: Request membership in AICoE Org
 title: 'REQUEST: New membership for <your-GH-handle>'
 labels: bot
-assignees: '@goern, @tumido'
+assignees: goern, tumido
 
 ---
 
