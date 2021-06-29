@@ -8,31 +8,6 @@
 ---
 default:
   labels:
-    - color: d5f48d
-      description: This Issue or PR is related to a specific deployment.
-      name: deployment_name/zero-prod
-      previously:
-        - name: deployment_name/moc
-      target: both
-      prowPlugin: label
-      addedBy: human
-    - color: d5f48d
-      description: This Issue or PR is related to a specific deployment.
-      name: deployment_name/ocp4-stage
-      previously:
-        - name: deployment_name/ocp-stage
-      target: both
-      prowPlugin: label
-      addedBy: human
-    - color: d5f48d
-      description: This Issue or PR is related to a specific deployment.
-      name: deployment_name/ocp4-test
-      previously:
-        - name: deployment_name/ocp-test
-      target: both
-      prowPlugin: label
-      addedBy: human
-
     - color: ff9695
       description: This is an Issue or PR someone want to give a demo or request a demo.
       name: kind/demo
@@ -274,82 +249,6 @@ default:
       prowPlugin: label
       addedBy: humans
 
-    - color: fef2c0
-      description: Categorizes an issue or PR as relevant to SIG Cyborgs and Bots.
-      name: sig/cyborgs
-      target: both
-      prowPlugin: label
-      addedBy: anyone
-    - color: fef2c0
-      description: Categorizes an issue or PR as relevant to SIG DevOps.
-      name: sig/devops
-      target: both
-      prowPlugin: label
-      addedBy: anyone
-    - color: fef2c0
-      description: Categorizes an issue or PR as relevant to SIG Docs.
-      name: sig/docs
-      target: both
-      prowPlugin: label
-      previously:
-        - name: sig/documentation
-      addedBy: anyone
-    - color: fef2c0
-      description: Categorizes an issue or PR as relevant to SIG Pipelines (CI/CD)
-      name: sig/pipelines
-      previously:
-        - name: sig/build
-      target: both
-      prowPlugin: label
-      addedBy: anyone
-
-    - addedBy: human
-      color: fef2c0
-      description: Issues or PRs related to https://github.com/orgs/thoth-station/projects/14
-      name: sig/investigator
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description: Issues or PRs related to {meta|performance|security} indicators.
-      name: sig/indicators
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description: Issues or PRs related to https://github.com/orgs/thoth-station/projects/8
-      name: sig/knowledge-graph
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description: Issues or PRs related to Solvers
-      name: sig/solvers
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description:
-        Issues or PRs related to Service Level Indicators and Objectives
-        and their reporting
-      name: sig/slo
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description: Issues or PRs related to https://github.com/orgs/thoth-station/projects/4
-      name: sig/advisor
-      prowPlugin: label
-      target: both
-    - addedBy: human
-      color: fef2c0
-      description:
-        Issues or PRs related to the User Experience of our Services, Tools,
-        and Libraries.
-      name: sig/user-experience
-      prowPlugin: label
-      target: both
-
     - color: d455d0
       description: Indicates an issue is a duplicate of other open issue.
       name: triage/duplicate
@@ -388,12 +287,26 @@ default:
       target: issues
       addedBy: humans
     - color: fbca04
-      description: This isse/PR requires himan intervention!
-      name: thoth/human-intervention-required
-      target: both
-      addedBy: both
-    - color: fbca04
       description: This is a potential observation we need to learn from!
       name: thoth/potential-observation
       target: both
       addedBy: humans
+
+repos:
+  AICoE/Meteor:
+    labels:
+      - color: 0052cc
+        description: Issues or PRs related to Team Comet
+        name: area/comet 💫
+        target: both
+        addedBy: label
+      - color: 0052cc
+        description: Issues or PRs related to Team Shooting Sta
+        name: area/shooting-star 🌠
+        target: both
+        addedBy: label
+      - color: 0052cc
+        description: Issues or PRs related to Team Telescope
+        name: area/telescope 🔭
+        target: both
+        addedBy: label
