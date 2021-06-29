@@ -55,6 +55,7 @@ orgs:
       - Shreyanand
       - sophwats
       - sub-mod
+      - suppathak
       - taneem-ibrahim
       - tmckayus
       - TreeinRandomForest
@@ -494,6 +495,7 @@ orgs:
           - KPostOffice
           - pacospace
           - Shreyanand
+          - suppathak
         privacy: closed
         repos:
           meteor: admin
