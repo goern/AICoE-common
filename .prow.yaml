@@ -43,15 +43,36 @@ presubmits:
         - name: github-oauth
           secret:
             secretName: oauth-token
+  - name: labels
+    decorate: true
+    run_if_changed: labels.yaml
+    skip_report: false
+    context: community-management/prow/labels
+    spec:
+      containers:
+        - image: gcr.io/k8s-prow/label_sync:latest
+          command:
+            - /bin/sh
+          args:
+            - -c
+            - |
+              set -ex
+              /label_sync --config labels.yaml --orgs=AICoE --token /etc/github/oauth
+          volumeMounts:
+            - name: github-oauth
+              mountPath: /etc/github
+      volumes:
+        - name: github-oauth
+          secret:
+            secretName: oauth-token
 
 postsubmits:
   - name: peribolos
     decorate: true
-    run_if_changed: github-config.yaml
+    run_if_changed: ^github-config\.yaml$
     skip_report: false
-    context: community-management/prow/peribolos
     branches:
-      - main
+      - ^main$
     spec:
       containers:
         - image: gcr.io/k8s-prow/peribolos:latest
@@ -73,6 +94,29 @@ postsubmits:
                 --fix-team-repos \
                 --allow-repo-archival \
                 --confirm
+          volumeMounts:
+            - name: github-oauth
+              mountPath: /etc/github
+      volumes:
+        - name: github-oauth
+          secret:
+            secretName: oauth-token
+  - name: labels
+    decorate: true
+    run_if_changed: ^(github-config|labels)\.yaml$
+    skip_report: false
+    branches:
+      - ^main$
+    spec:
+      containers:
+        - image: gcr.io/k8s-prow/label_sync:latest
+          command:
+            - /bin/sh
+          args:
+            - -c
+            - |
+              set -ex
+              /label_sync --config labels.yaml --orgs=AICoE --token /etc/github/oauth --confirm
           volumeMounts:
             - name: github-oauth
               mountPath: /etc/github
