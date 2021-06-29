@@ -92,7 +92,7 @@ orgs:
         has_wiki: false
       Varangian:
         default_branch: main
-        description: Applying Machine Learning to Static Analysis for the Fedora community
+        description: Applying Machine Learning to Static Code Analysis, focus human Developers on critical issues.
         has_projects: false
         has_wiki: false
       ai-ci:
