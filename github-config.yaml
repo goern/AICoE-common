@@ -32,6 +32,7 @@ orgs:
       - elmiko
       - erikerlandson
       - fridex
+      - Gkrumbach07
       - gmfrasca
       - harshad16
       - hemajv
@@ -446,20 +447,20 @@ orgs:
         description: The DevOps Crew
         maintainers:
           - goern
-        members:
           - harshad16
+        members:
           - 4n4nd
         privacy: closed
         repos:
-          aicoe-ci: read
-          jupyterhub-operator: read
+          aicoe-ci: admin
           s2i-custom-notebook: admin
       FDE:
         description: The Forward Deployed Engineers!
         maintainers:
           - goern
-        members:
           - erikerlandson
+        members:
+          - Gkrumbach07
           - sophwats
         privacy: closed
         repos:
@@ -618,10 +619,11 @@ orgs:
         description: "The Thoth-Station people..."
         maintainers:
           - goern
+          - harshad16
         members:
           - fridex
+          - Gkrumbach07
           - sub-mod
-          - harshad16
           - KPostOffice
           - pacospace
           - xtuchyna
