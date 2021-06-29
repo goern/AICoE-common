@@ -293,20 +293,31 @@ default:
       addedBy: humans
 
 repos:
-  AICoE/Meteor:
+  AICoE/meteor:
     labels:
       - color: 0052cc
         description: Issues or PRs related to Team Comet
-        name: area/comet 💫
+        name: area/comet
+        previously:
+          - name: area/comet 💫
+          - name: 💫 comet
+          - name: dizzy comet
         target: both
         addedBy: label
       - color: 0052cc
-        description: Issues or PRs related to Team Shooting Sta
-        name: area/shooting-star 🌠
+        description: Issues or PRs related to Team Shooting Star
+        name: area/shooting-star
+        previously:
+          - name: area/shooting-star 🌠
+          - name: 🌠 shooting-star
         target: both
         addedBy: label
       - color: 0052cc
         description: Issues or PRs related to Team Telescope
-        name: area/telescope 🔭
+        name: area/telescope
+        previously:
+          - name: area/telescope 🔭
+          - name: 🔭 telescope
+          - name: telescope telescope
         target: both
         addedBy: label
