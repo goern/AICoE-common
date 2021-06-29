@@ -2,8 +2,10 @@
 name: Repository creation
 about: Create a repository in AICoE Org
 title: CREATE: <repo_name>
-labels: bot
-assignees: goern, tumido
+labels: [bot]
+assignees:
+  - goern
+  - tumido
 ---
 
 ### New Repository
