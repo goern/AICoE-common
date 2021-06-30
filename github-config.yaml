@@ -138,6 +138,12 @@ orgs:
           by our bots...
         has_projects: false
         has_wiki: false
+      data-driven-development:
+        description:
+          This repository consolidates and provides resources, guides and documentation
+          necessary to foster data driven development.
+        has_projects: false
+        has_wiki: false
       disk-failure-prediction:
         description:
           This repository contains notebooks to Download, Preprocess and
@@ -504,7 +510,8 @@ orgs:
           - suppathak
         privacy: closed
         repos:
-          meteor: admin
+          meteor: write
+          data-driven-development: write
       SRE:
         description: The AI CoE SRE
         maintainers:
@@ -542,6 +549,7 @@ orgs:
           aicoe-sre: admin
           anomaly-detection-demo-app: admin
           benchmarks-tekton: admin
+          data-driven-development: admin
           disk-failure-prediction: admin
           elyra-aidevsecops-tutorial: admin
           experiment-tracking: admin
@@ -562,6 +570,7 @@ orgs:
           ludus: admin
           matmul-pipeline-cpu: admin
           matmul-pipeline-gpu: admin
+          meteor: admin
           mlflow-tracking-operator: admin
           mlperf-inference-tekton-pipeline: admin
           mlperf-tekton: admin
