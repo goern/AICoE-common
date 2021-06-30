@@ -49,6 +49,7 @@ orgs:
       - MichaelClifford
       - mroman-redhat
       - nakfour
+      - oindrillac
       - pacospace
       - rimolive
       - sahilsuneja1
@@ -486,15 +487,16 @@ orgs:
           - durandom
           - tumido
         members:
-          - MichaelClifford
-          - hemajv
           - 4n4nd
           - chauhankaranraj
           - fridex
           - harshad16
+          - hemajv
           - HumairAK
           - isabelizimm
           - KPostOffice
+          - MichaelClifford
+          - oindrillac
           - pacospace
           - Shreyanand
           - suppathak
