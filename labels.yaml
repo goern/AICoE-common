@@ -295,7 +295,7 @@ default:
 repos:
   AICoE/meteor:
     labels:
-      - color: 0052cc
+      - color: 5cdfed
         description: Issues or PRs related to Team Comet
         name: area/comet
         previously:
@@ -304,7 +304,7 @@ repos:
           - name: dizzy comet
         target: both
         addedBy: label
-      - color: 0052cc
+      - color: edcb5c
         description: Issues or PRs related to Team Shooting Star
         name: area/shooting-star
         previously:
