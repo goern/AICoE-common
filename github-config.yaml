@@ -644,23 +644,10 @@ orgs:
           - xtuchyna
         privacy: closed
         repos:
-          anomaly-detection-demo-app: read
-          clai: write
-          disk-failure-prediction: read
-          jupyter-notebooks: write
-          jupyterhub-operator: read
-          kubectl-container: write
-          ludus: read
-          mlflow-tracking-operator: read
-          mlperf-tekton: read
-          mlperf-training: write
           pl-tensorflowapp: admin
-          prometheus-anomaly-detector: read
-          prometheus-api-client-python: read
-          s2i-custom-notebook: read
           sefkhet-abwy: admin
           sesheta: write
           tensorflow-serving-s2i: admin
-          tensorflow-wheels: write
           tf-in-container: admin
           tf-serving-in-container: admin
+          aicoe-ci: maintain
