@@ -249,6 +249,10 @@ orgs:
         description: Project meteor
         has_projects: false
         has_wiki: false
+      meteor-operator:
+        description: Project meteor - operator
+        has_projects: false
+        has_wiki: false
       mlflow-tracking-operator:
         description: MLFlow Tracking Operator for Kubernetes and OpenShift
         has_projects: true
@@ -511,6 +515,7 @@ orgs:
         privacy: closed
         repos:
           meteor: write
+          meteor-operator: write
           data-driven-development: write
       SRE:
         description: The AI CoE SRE
@@ -571,6 +576,7 @@ orgs:
           matmul-pipeline-cpu: admin
           matmul-pipeline-gpu: admin
           meteor: admin
+          meteor-operator: admin
           mlflow-tracking-operator: admin
           mlperf-inference-tekton-pipeline: admin
           mlperf-tekton: admin
