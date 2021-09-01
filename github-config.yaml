@@ -66,6 +66,7 @@ orgs:
       - Xaenalt
       - xtuchyna
       - zyh1121
+      - codificat
     members_can_create_repositories: false
     name: Artificial Intelligence Center of Excellence
     repos:
@@ -648,6 +649,7 @@ orgs:
           - KPostOffice
           - pacospace
           - xtuchyna
+          - codificat
         privacy: closed
         repos:
           pl-tensorflowapp: admin
