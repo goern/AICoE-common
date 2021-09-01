@@ -239,6 +239,11 @@ orgs:
           push the image to quay registry, pull that image and run the cuda code on
           CPU.
         has_projects: true
+      manage-dependencies-tutorial:
+        default_branch: main
+        description: Manage dependencies in JupyterLab on ODH tutorial.
+        has_projects: false
+        has_wiki: false
       matmul-pipeline-gpu:
         description:
           A tekton pipeline that will build the image from Dockerfile,
@@ -283,6 +288,11 @@ orgs:
       openshift_kubeflow_workshop:
         description: Kubeflow on OpenShift
         has_projects: true
+      overlays-for-ai-pipeline-tutorial:
+        default_branch: main
+        description: Create overlays for steps in AI Pipelines tutorial.
+        has_projects: false
+        has_wiki: false
       peak:
         has_projects: true
       peak-fork:
@@ -330,6 +340,16 @@ orgs:
       pytorch-lda2vec:
         archived: true
         description: A PyTorch implementation of lda2vec
+        has_projects: false
+        has_wiki: false
+      receive-feedback-on-deployment-tutorial:
+        default_branch: main
+        description: Receive feedback on deployment of AI model tutorial.
+        has_projects: false
+        has_wiki: false
+      recommend-base-image-tutorial:
+        default_branch: main
+        description: Recommend base image for AI application tutorial.
         has_projects: false
         has_wiki: false
       repartitioning-sosreports:
@@ -573,6 +593,7 @@ orgs:
           learn-katacoda: admin
           log-anomaly-detector: admin
           ludus: admin
+          manage-dependencies-tutorial: admin
           matmul-pipeline-cpu: admin
           matmul-pipeline-gpu: admin
           meteor: admin
@@ -583,6 +604,7 @@ orgs:
           mlperf-training: admin
           olm-testing-example: admin
           openshift_kubeflow_workshop: admin
+          overlays-for-ai-pipeline-tutorial: admin
           peak: admin
           pl-tensorflowapp: admin
           pricingnbs: admin
@@ -595,6 +617,8 @@ orgs:
           prometheus-lts: admin
           prometheus-remote-storage-adapter: admin
           prometheus-scraper: admin
+          receive-feedback-on-deployment-tutorial: admin
+          recommend-base-image-tutorial: admin
           repartitioning-sosreports: admin
           robo-doc: admin
           s2i-custom-notebook: admin
