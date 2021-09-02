@@ -321,3 +321,14 @@ repos:
           - name: telescope telescope
         target: both
         addedBy: label
+  AICoE/data-driven-development:
+    labels:
+      - color: 0052cc
+        description: Issues or PRs related to Team Telescope
+        name: area/telescope
+        previously:
+          - name: area/telescope 🔭
+          - name: 🔭 telescope
+          - name: telescope telescope
+        target: both
+        addedBy: label
