@@ -244,7 +244,8 @@ orgs:
           CPU.
         has_projects: true
       manage-dependencies-tutorial:
-        description: Manage dependencies in JupyterLab on ODH tutorial.
+        default_branch: main
+        description: Thoth Tutorial - manage your dependencies in JupyterLab notebooks.
         has_projects: false
         has_wiki: false
       matmul-pipeline-gpu:
@@ -292,7 +293,8 @@ orgs:
         description: Kubeflow on OpenShift
         has_projects: true
       overlays-for-ai-pipeline-tutorial:
-        description: Create overlays for steps in AI Pipelines tutorial.
+        default_branch: main
+        description: Thoth Tutorial - using overlays for Elyra AI Pipelines steps.
         has_projects: false
         has_wiki: false
       peak:
@@ -345,11 +347,11 @@ orgs:
         has_projects: false
         has_wiki: false
       receive-feedback-on-deployment-tutorial:
-        description: Receive feedback on deployment of AI model tutorial.
+        description: Thoth Tutorial - receive feedback on deployment of AI model.
         has_projects: false
         has_wiki: false
       recommend-base-image-tutorial:
-        description: Recommend base image for AI application tutorial.
+        description: Thoth Tutorial - get a recommendion for the base image of your AI application.
         has_projects: false
         has_wiki: false
       repartitioning-sosreports:
