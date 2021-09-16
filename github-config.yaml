@@ -50,7 +50,7 @@ orgs:
       - maulikjs
       - MichaelClifford
       - mimotej
-      - mroman-redhat
+      - maroroman
       - nakfour
       - oindrillac
       - pacospace
@@ -244,7 +244,6 @@ orgs:
           CPU.
         has_projects: true
       manage-dependencies-tutorial:
-        default_branch: main
         description: Manage dependencies in JupyterLab on ODH tutorial.
         has_projects: false
         has_wiki: false
@@ -293,7 +292,6 @@ orgs:
         description: Kubeflow on OpenShift
         has_projects: true
       overlays-for-ai-pipeline-tutorial:
-        default_branch: main
         description: Create overlays for steps in AI Pipelines tutorial.
         has_projects: false
         has_wiki: false
@@ -347,12 +345,10 @@ orgs:
         has_projects: false
         has_wiki: false
       receive-feedback-on-deployment-tutorial:
-        default_branch: main
         description: Receive feedback on deployment of AI model tutorial.
         has_projects: false
         has_wiki: false
       recommend-base-image-tutorial:
-        default_branch: main
         description: Recommend base image for AI application tutorial.
         has_projects: false
         has_wiki: false
