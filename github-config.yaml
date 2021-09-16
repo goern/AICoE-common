@@ -236,7 +236,8 @@ orgs:
         description:
           A gamification framework for version control and project tracking
           tools
-        has_projects: true
+        has_projects: false
+        has_wiki: false
       matmul-pipeline-cpu:
         description:
           A tekton pipeline that will build the image from Dockerfile,
@@ -244,7 +245,6 @@ orgs:
           CPU.
         has_projects: true
       manage-dependencies-tutorial:
-        default_branch: main
         description: Thoth Tutorial - manage your dependencies in JupyterLab notebooks.
         has_projects: false
         has_wiki: false
@@ -293,7 +293,6 @@ orgs:
         description: Kubeflow on OpenShift
         has_projects: true
       overlays-for-ai-pipeline-tutorial:
-        default_branch: main
         description: Thoth Tutorial - using overlays for Elyra AI Pipelines steps.
         has_projects: false
         has_wiki: false
