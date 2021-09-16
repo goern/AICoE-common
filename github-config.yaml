@@ -40,6 +40,7 @@ orgs:
       - heyselbi
       - HumairAK
       - isabelizimm
+      - jimcadden
       - jkoehler-redhat
       - KPostOffice
       - LaVLaS
@@ -49,10 +50,11 @@ orgs:
       - maulikjs
       - MichaelClifford
       - mimotej
-      - mroman-redhat
+      - maroroman
       - nakfour
       - oindrillac
       - pacospace
+      - riekrh
       - rimolive
       - sahilsuneja1
       - saurabhpujar
@@ -345,12 +347,10 @@ orgs:
         has_projects: false
         has_wiki: false
       receive-feedback-on-deployment-tutorial:
-        default_branch: main
         description: Thoth Tutorial - receive feedback on deployment of AI model.
         has_projects: false
         has_wiki: false
       recommend-base-image-tutorial:
-        default_branch: main
         description: Thoth Tutorial - get a recommendion for the base image of your AI application.
         has_projects: false
         has_wiki: false
@@ -539,6 +539,15 @@ orgs:
           meteor: write
           meteor-operator: write
           data-driven-development: write
+      Summit 2021 OCTO Keynote:
+        description: The Red Hat Summit 2021 OCTO Keynote Team
+        maintainers:
+          - jimcadden
+          - goern
+          - durandom
+        members:
+          - riekrh
+        privacy: closed
       SRE:
         description: The AI CoE SRE
         maintainers:
