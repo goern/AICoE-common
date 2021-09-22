@@ -58,6 +58,7 @@ orgs:
       - rimolive
       - sahilsuneja1
       - saurabhpujar
+      - schwesig
       - sesheta-srcops
       - Shreyanand
       - sophwats
@@ -533,6 +534,7 @@ orgs:
           - pacospace
           - Shreyanand
           - suppathak
+          - schwesig
         privacy: closed
         repos:
           meteor: write
