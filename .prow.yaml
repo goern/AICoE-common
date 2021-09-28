@@ -91,7 +91,10 @@ postsubmits:
             - -c
             - |
               set -ex
-              /peribolos --config-path github-config.yaml --github-token-path /etc/github/oauth \
+              /peribolos --config-path github-config.yaml \
+                --github-endpoint=http://ghproxy \
+                --github-endpoint=https://api.github.com \
+                --github-token-path /etc/github/oauth \
                 --min-admins=2 \
                 --maximum-removal-delta=0.15 \
                 --require-self=true \
@@ -129,6 +132,8 @@ postsubmits:
               /app/label_sync/app.binary \
               --config=labels.yaml \
               --orgs=AICoE \
+              --github-endpoint=http://ghproxy \
+              --github-endpoint=https://api.github.com \
               --token=/etc/github/oauth \
               --confirm
           volumeMounts:
