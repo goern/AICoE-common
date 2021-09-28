@@ -390,6 +390,11 @@ orgs:
         default_branch: development
         has_issues: false
         has_projects: true
+      summit-2021-octo-keynote:
+        default_branch: main
+        has_issues: true
+        has_projects: false
+        has_wiki: false
       tensorflow-serving-s2i:
         description: S2I image is for running tensorflow model server on Openshift.
         has_issues: false
@@ -549,6 +554,8 @@ orgs:
         members:
           - riekrh
         privacy: closed
+        repos:
+          summit-2021-octo-keynote: triage
       SRE:
         description: The AI CoE SRE
         maintainers:
