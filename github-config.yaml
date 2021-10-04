@@ -27,6 +27,7 @@ orgs:
       - burn2l
       - cfchase
       - chauhankaranraj
+      - codificat
       - crobby
       - dfeddema
       - EldritchJS
@@ -71,7 +72,6 @@ orgs:
       - Xaenalt
       - xtuchyna
       - zyh1121
-      - codificat
     members_can_create_repositories: false
     name: Artificial Intelligence Center of Excellence
     repos:
@@ -687,19 +687,23 @@ orgs:
           - goern
           - harshad16
         members:
+          - codificat
           - fridex
           - Gkrumbach07
           - sub-mod
           - KPostOffice
           - pacospace
           - xtuchyna
-          - codificat
         privacy: closed
         repos:
+          aicoe-ci: maintain
+          manage-dependencies-tutorial: write
+          overlays-for-ai-pipeline-tutorial: write
           pl-tensorflowapp: admin
+          receive-feedback-on-deployment-tutorial: write
+          recommend-base-image-tutorial: write
           sefkhet-abwy: admin
           sesheta: write
           tensorflow-serving-s2i: admin
           tf-in-container: admin
           tf-serving-in-container: admin
-          aicoe-ci: maintain
