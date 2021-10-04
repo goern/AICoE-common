@@ -47,11 +47,12 @@ orgs:
       - LaVLaS
       - lucaburatti7
       - lucferbux
+      - maroroman
       - martinpovolny
       - maulikjs
+      - mayaCostantini
       - MichaelClifford
       - mimotej
-      - maroroman
       - nakfour
       - oindrillac
       - pacospace
@@ -690,9 +691,10 @@ orgs:
           - codificat
           - fridex
           - Gkrumbach07
-          - sub-mod
           - KPostOffice
+          - mayaCostantini
           - pacospace
+          - sub-mod
           - xtuchyna
         privacy: closed
         repos:
