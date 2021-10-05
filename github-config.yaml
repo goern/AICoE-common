@@ -28,14 +28,17 @@ orgs:
       - cfchase
       - chauhankaranraj
       - codificat
+      - cooktheryan
       - crobby
       - dfeddema
       - EldritchJS
       - elmiko
       - erikerlandson
       - fridex
+      - fzdarsky
       - Gkrumbach07
       - gmfrasca
+      - guymguym
       - harshad16
       - hemajv
       - heyselbi
@@ -47,6 +50,7 @@ orgs:
       - LaVLaS
       - lucaburatti7
       - lucferbux
+      - lukehinds
       - maroroman
       - martinpovolny
       - maulikjs
@@ -54,10 +58,12 @@ orgs:
       - MichaelClifford
       - mimotej
       - nakfour
+      - oglok
       - oindrillac
       - pacospace
       - riekrh
       - rimolive
+      - rootfs
       - sahilsuneja1
       - saurabhpujar
       - schwesig
@@ -554,6 +560,10 @@ orgs:
           - goern
           - durandom
           - screeley44
+          - oglok
+          - cooktheryan
+          - fzdarsky
+          - lukehinds
         members:
           - riekrh
         privacy: closed
