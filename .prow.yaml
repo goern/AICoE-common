@@ -63,8 +63,8 @@ presubmits:
               /app/label_sync/app.binary \
               --config=labels.yaml \
               --orgs=AICoE \
-              --github-endpoint=http://ghproxy \
-              --github-endpoint=https://api.github.com \
+              --endpoint=http://ghproxy \
+              --endpoint=https://api.github.com \
               --token=/etc/github/oauth
           volumeMounts:
             - name: github-oauth
@@ -132,8 +132,8 @@ postsubmits:
               /app/label_sync/app.binary \
               --config=labels.yaml \
               --orgs=AICoE \
-              --github-endpoint=http://ghproxy \
-              --github-endpoint=https://api.github.com \
+              --endpoint=http://ghproxy \
+              --endpoint=https://api.github.com \
               --token=/etc/github/oauth \
               --confirm
           volumeMounts:
