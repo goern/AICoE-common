@@ -332,3 +332,31 @@ repos:
           - name: telescope telescope
         target: both
         addedBy: label
+  AICoE/okr:
+    labels:
+      - color: c5991f
+        description: all Key Results belonging to the AIOps endeavor
+        name: area/aiops
+        previously:
+          - name: aiops
+        target: both
+        addedBy: label
+      - color: 1D76DB
+        description: all Key Results belonging to the Operate First initiative
+        name: area/operate-first
+        previously:
+          - name: operate-first
+        target: both
+        addedBy: label
+      - color: 636D81
+        description: all Key Results belonging to the ODH ET endeavor
+        name: area/odh-et
+        previously:
+          - name: odh-et
+        target: both
+        addedBy: label
+      - color: FBCA04
+        description: all Key Results belonging to Project Thoth
+        name: area/project-thoth
+        target: both
+        addedBy: label
