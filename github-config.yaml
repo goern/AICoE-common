@@ -211,6 +211,15 @@ orgs:
           Deployment Artifacts for all non ODH components used by the Internal
           Data Hub
         has_projects: true
+      jpegio:
+        default_branch: main
+        has_projects: false
+        has_wiki: false
+        description:
+          Code from our modified fork of https://github.com/dwgoon/jpegio It's since been
+          updated for more current libjpeg usage and efficiency. JPEGIO is a Python
+          package which provides accelerated ops for manipulating JPG image files.
+          It's used by pyIFD.
       jupyter-notebooks:
         default_branch: develop
         description: OpenShift compatible S2I builder for basic notebook images.
@@ -618,6 +627,7 @@ orgs:
           instrumented-app-go: admin
           instrumented-app-prometheus: admin
           internal-data-hub: admin
+          jpegio: admin
           jupyter-notebooks: admin
           jupyterhub-operator: admin
           kubectl-container: admin
@@ -706,9 +716,11 @@ orgs:
           - pacospace
           - sub-mod
           - xtuchyna
+          - EldritchJS
         privacy: closed
         repos:
           aicoe-ci: maintain
+          jpegio: write
           manage-dependencies-tutorial: write
           overlays-for-ai-pipeline-tutorial: write
           pl-tensorflowapp: admin
