@@ -358,6 +358,11 @@ orgs:
         has_projects: true
       prometheus-scraper:
         has_projects: true
+      pyIFD:
+        default_branch: main
+        has_projects: false
+        has_wiki: false
+        description: Python image forgery detection toolkit
       pytorch-lda2vec:
         archived: true
         description: A PyTorch implementation of lda2vec
@@ -659,6 +664,7 @@ orgs:
           prometheus-lts: admin
           prometheus-remote-storage-adapter: admin
           prometheus-scraper: admin
+          pyifd: admin
           receive-feedback-on-deployment-tutorial: admin
           recommend-base-image-tutorial: admin
           repartitioning-sosreports: admin
@@ -724,6 +730,7 @@ orgs:
           manage-dependencies-tutorial: write
           overlays-for-ai-pipeline-tutorial: write
           pl-tensorflowapp: admin
+          pyifd: write
           receive-feedback-on-deployment-tutorial: write
           recommend-base-image-tutorial: write
           sefkhet-abwy: admin
