@@ -664,7 +664,7 @@ orgs:
           prometheus-lts: admin
           prometheus-remote-storage-adapter: admin
           prometheus-scraper: admin
-          pyifd: admin
+          pyIFD: admin
           receive-feedback-on-deployment-tutorial: admin
           recommend-base-image-tutorial: admin
           repartitioning-sosreports: admin
@@ -730,7 +730,7 @@ orgs:
           manage-dependencies-tutorial: write
           overlays-for-ai-pipeline-tutorial: write
           pl-tensorflowapp: admin
-          pyifd: write
+          pyIFD: write
           receive-feedback-on-deployment-tutorial: write
           recommend-base-image-tutorial: write
           sefkhet-abwy: admin
