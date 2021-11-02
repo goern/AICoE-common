@@ -401,6 +401,10 @@ orgs:
         description: This is one of the incarnations of Sesheta
         has_projects: false
         has_wiki: false
+      seraph:
+        description: Seraph community project - OS analytics as a service
+        has_projects: false
+        has_wiki: false
       sesheta:
         description: This bot is doing SrcOps for @thoth-station
         has_projects: false
@@ -567,6 +571,14 @@ orgs:
           meteor: write
           meteor-operator: write
           data-driven-development: write
+      Seraph:
+        descriptio: Seraph community project
+        members:
+          - tumido
+          - schwesig
+        privacy: closed
+        repos:
+          seraph: write
       Summit 2021 OCTO Keynote:
         description: The Red Hat Summit 2021 OCTO Keynote Team
         maintainers:
