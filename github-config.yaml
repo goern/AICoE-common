@@ -163,7 +163,8 @@ orgs:
           get started working with the back blaze data
         has_projects: true
       donkeycar:
-        default_branch: dev
+        default_branch: aicoe
+        has_issues: true
         has_projects: false
         has_wiki: false
       edge-tekton-model:
@@ -594,6 +595,7 @@ orgs:
           - cooktheryan
           - fzdarsky
           - lukehinds
+          - codificat
         members:
           - riekrh
         privacy: closed
