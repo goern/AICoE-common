@@ -601,7 +601,7 @@ orgs:
         privacy: closed
         repos:
           summit-2021-octo-keynote: triage
-          donkeycar: triage
+          donkeycar: write
       SRE:
         description: The AI CoE SRE
         maintainers:
