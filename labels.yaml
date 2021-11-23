@@ -360,3 +360,16 @@ repos:
         name: area/project-thoth
         target: both
         addedBy: label
+  AICoE/content-pipeline:
+    labels:
+      - color: 8fc951
+        description: submissions accepted
+        name: lifecycle/submission-accepted
+        target: both
+        addedBy: anyone
+      - color: e11d21
+        description: submissions not accepted
+        name: lifecycle/submission-rejected
+        target: both
+        prowPlugin: label
+        addedBy: anyone
