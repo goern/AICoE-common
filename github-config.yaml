@@ -234,6 +234,10 @@ orgs:
       jupyterhub-operator:
         description: Operator for deploying and managing JupyterHub and Jupyter Notebooks
         has_projects: true
+      kafka2s3:
+        default_branch: main
+        description: A python tool handling ingestion from Kafka into s3.
+        has_projects: true
       kubectl-container:
         description: Minimal kubectl UBI-based image.
         has_projects: false
