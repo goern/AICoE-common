@@ -9,7 +9,6 @@ orgs:
       - sesheta
       - shgriffi
       - shuels
-      - vpavlin
       - tumido
     billing_email: mhild@redhat.com
     company: "Red Hat, Inc."
@@ -54,7 +53,6 @@ orgs:
       - lukehinds
       - maroroman
       - martinpovolny
-      - maulikjs
       - mayaCostantini
       - mimotej
       - nakfour
@@ -70,11 +68,9 @@ orgs:
       - screeley44
       - sesheta-srcops
       - Shreyanand
-      - sophwats
       - sub-mod
       - suppathak
       - taneem-ibrahim
-      - tmckayus
       - TreeinRandomForest
       - Xaenalt
       - xtuchyna
@@ -477,7 +473,6 @@ orgs:
         description: ""
         maintainers:
           - durandom
-          - vpavlin
         members:
           - martinpovolny
           - MichaelClifford
@@ -532,7 +527,6 @@ orgs:
           - erikerlandson
         members:
           - Gkrumbach07
-          - sophwats
         privacy: closed
         repos:
           jupyterhub-operator: read
