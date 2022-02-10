@@ -197,6 +197,7 @@ orgs:
         has_projects: false
         has_wiki: false
       inference_results_v0.5:
+        archived: true
         description: MLPerf Inference v0.5 Results
         has_issues: false
         has_projects: true
@@ -289,11 +290,14 @@ orgs:
         description: MLFlow Tracking Operator for Kubernetes and OpenShift
         has_projects: true
       mlperf-inference-tekton-pipeline:
+        archived: true
         has_projects: true
       mlperf-tekton:
+        archived: true
         description: Tekton Pipelines to run MLPerf benchmarks on OpenShift
         has_projects: true
       mlperf-training:
+        archived: true
         description: Reference implementations of training benchmarks
         has_issues: false
         has_projects: false
@@ -326,6 +330,7 @@ orgs:
         has_issues: false
         has_projects: true
       pl-tensorflowapp:
+        archived: true
         description: Chris plugin app pl-tensorflowapp
         has_projects: false
         has_wiki: false
@@ -427,18 +432,22 @@ orgs:
         has_projects: false
         has_wiki: false
       tensorflow-serving-s2i:
+        archived: true
         description: S2I image is for running tensorflow model server on Openshift.
         has_issues: false
         has_projects: true
       tensorflow-wheels:
+        archived: true
         description: TensorFlow Optimized Wheels
         has_projects: false
         has_wiki: false
       tf-in-container:
+        archived: true
         description: Tensorflow in container
         has_projects: false
         has_wiki: false
       tf-serving-in-container:
+        archived: true
         description: Tensorflow Serving in container
         has_projects: false
         has_wiki: false
@@ -450,6 +459,7 @@ orgs:
         has_projects: false
         has_wiki: false
       v0.6_mlperf_training_DellC4140:
+        archived: true
         has_issues: false
         has_projects: true
       workshop-coding-best-practices:
@@ -662,15 +672,10 @@ orgs:
           matmul-pipeline-gpu: admin
           meteor: admin
           meteor-operator: admin
-          mlflow-tracking-operator: admin
-          mlperf-inference-tekton-pipeline: admin
-          mlperf-tekton: admin
-          mlperf-training: admin
           olm-testing-example: admin
           openshift_kubeflow_workshop: admin
           overlays-for-ai-pipeline-tutorial: admin
           peak: admin
-          pl-tensorflowapp: admin
           pricingnbs: admin
           prometheus-anomaly-detector: admin
           prometheus-anomaly-detector-legacy: admin
@@ -692,13 +697,8 @@ orgs:
           sesheta: admin
           starburst-test: admin
           stats-to-serverless-on-OpenShift4: admin
-          tensorflow-serving-s2i: admin
-          tensorflow-wheels: admin
-          tf-in-container: admin
-          tf-serving-in-container: admin
           thanos-openshift: admin
           ultrahook: admin
-          v0.6_mlperf_training_DellC4140: admin
           workshop-coding-best-practices: admin
           workshop-intern-bootcamp-git: admin
       rel-eng:
@@ -722,9 +722,6 @@ orgs:
           s2i-custom-notebook: read
           sefkhet-abwy: write
           sesheta: admin
-          tensorflow-wheels: write
-          tf-in-container: admin
-          tf-serving-in-container: write
       thoth-station:
         description: "The Thoth-Station people..."
         maintainers:
@@ -746,12 +743,10 @@ orgs:
           jpegio: write
           manage-dependencies-tutorial: write
           overlays-for-ai-pipeline-tutorial: write
-          pl-tensorflowapp: admin
           pyIFD: write
           receive-feedback-on-deployment-tutorial: write
           recommend-base-image-tutorial: write
           sefkhet-abwy: admin
           sesheta: write
-          tensorflow-serving-s2i: admin
           tf-in-container: admin
           tf-serving-in-container: admin
