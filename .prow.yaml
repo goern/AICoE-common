@@ -60,7 +60,7 @@ presubmits:
             - -c
             - |
               set -ex
-              /app/label_sync/app.binary \
+              /ko-app/label_sync \
               --config=labels.yaml \
               --orgs=AICoE \
               --endpoint=http://ghproxy \
@@ -129,7 +129,7 @@ postsubmits:
             - -c
             - |
               set -ex
-              /app/label_sync/app.binary \
+              /ko-app/label_sync \
               --config=labels.yaml \
               --orgs=AICoE \
               --endpoint=http://ghproxy \
