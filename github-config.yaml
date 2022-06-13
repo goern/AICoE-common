@@ -557,6 +557,16 @@ orgs:
         privacy: closed
         repos:
           Varangian: triage
+      IBM Research-admins:
+        description: some @ibm-research being admins on Varangian
+        maintainers:
+          - goern
+          - kpostoffice
+          - saurabhpujar
+        members: []
+        privacy: closed
+        repos:
+          Varangian: admin
       Meteor:
         description: Project Meteor
         maintainers:
