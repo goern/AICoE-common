@@ -44,7 +44,6 @@ orgs:
       - hemajv
       - heyselbi
       - HumairAK
-      - isabelizimm
       - jimcadden
       - jkoehler-redhat
       - KPostOffice
@@ -56,7 +55,6 @@ orgs:
       - martinpovolny
       - mayaCostantini
       - mimotej
-      - nakfour
       - oglok
       - oindrillac
       - pacospace
@@ -577,7 +575,6 @@ orgs:
           - KPostOffice
           - MichaelClifford
           - oindrillac
-          - pacospace
           - Shreyanand
           - suppathak
           - schwesig
@@ -735,8 +732,6 @@ orgs:
           - Gkrumbach07
           - KPostOffice
           - mayaCostantini
-          - pacospace
-          - sub-mod
           - xtuchyna
           - EldritchJS
         privacy: closed
