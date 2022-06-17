@@ -33,6 +33,7 @@ orgs:
       - dfeddema
       - EldritchJS
       - elmiko
+      - emmaleengo
       - erikerlandson
       - fridex
       - fzdarsky
@@ -556,7 +557,7 @@ orgs:
         privacy: closed
         repos:
           Varangian: triage
-      IBM Research-admins:
+      Varangian-admins:
         description: some @ibm-research being admins on Varangian
         maintainers:
           - goern
@@ -566,6 +567,16 @@ orgs:
         privacy: closed
         repos:
           Varangian: admin
+      Varangian-contributors:
+        description: Project Varangian contributors, not IBM, not Red Hat
+        maintainers:
+          - goern
+          - kpostoffice
+          - saurabhpujar
+        members:
+          - emmaleengo
+        repos:
+          Varangian: triage
       Meteor:
         description: Project Meteor
         maintainers:
