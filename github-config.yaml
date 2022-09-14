@@ -75,6 +75,7 @@ orgs:
       - suppathak
       - taneem-ibrahim
       - TreeinRandomForest
+      - VannTen
       - Xaenalt
       - xtuchyna
       - zyh1121
@@ -756,6 +757,7 @@ orgs:
           - mayaCostantini
           - xtuchyna
           - EldritchJS
+          - VannTen
         privacy: closed
         repos:
           aicoe-ci: maintain
