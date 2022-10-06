@@ -132,10 +132,13 @@ orgs:
           run by the AICoE SRE team.
         has_projects: true
       anomaly-detection-demo-app:
+        archived: true
         has_projects: true
       benchmarks-tekton:
+        archived: true
         has_projects: true
       clai:
+        archived: true
         description:
           "Command Line Artificial Intelligence or CLAI is an open-sourced
           project from IBM Research aimed to bring the power of AI to the command
@@ -152,12 +155,14 @@ orgs:
         has_projects: false
         has_wiki: false
       data-driven-development:
+        archived: true
         description:
           This repository consolidates and provides resources, guides and documentation
           necessary to foster data driven development.
         has_projects: false
         has_wiki: false
       disk-failure-prediction:
+        archived: true
         description:
           This repository contains notebooks to Download, Preprocess and
           get started working with the back blaze data
@@ -180,12 +185,15 @@ orgs:
         has_projects: false
         has_wiki: false
       experiment-tracking:
+        archived: true
         description: Experiment Tracking for Machine Learning Jobs
         has_projects: true
       experiment-tracking-template:
+        archived: true
         has_issues: false
         has_projects: true
       frauddetection-producer-consumer:
+        archived: true
         description: FraudDetection Kafka Producer and Consumer
         has_projects: false
         has_wiki: false
@@ -196,6 +204,7 @@ orgs:
           upstream Kubeflow manifests
         has_projects: true
       inference:
+        archived: true
         description: Reference implementations of inference benchmarks
         has_issues: false
         has_projects: false
@@ -206,9 +215,11 @@ orgs:
         has_issues: false
         has_projects: true
       instrumented-app-go:
+        archived: true
         has_issues: false
         has_projects: true
       instrumented-app-prometheus:
+        archived: true
         description: Prometheus and the instrumented app
         has_projects: true
       internal-data-hub:
@@ -244,10 +255,12 @@ orgs:
         has_projects: false
         has_wiki: false
       kubeflow:
+        archived: true
         description: Machine Learning Toolkit for Kubernetes
         has_projects: true
         has_wiki: false
       learn-katacoda:
+        archived: true
         description: AICoE fork of the OpenShift learning portal, powered by Katacoda
         has_projects: false
         has_wiki: false
@@ -261,12 +274,14 @@ orgs:
         has_wiki: false
         homepage: https://log-anomaly-detector.readthedocs.io/en/latest/
       ludus:
+        archived: true
         description:
           A gamification framework for version control and project tracking
           tools
         has_projects: false
         has_wiki: false
       matmul-pipeline-cpu:
+        archived: true
         description:
           A tekton pipeline that will build the image from Dockerfile,
           push the image to quay registry, pull that image and run the cuda code on
@@ -277,6 +292,7 @@ orgs:
         has_projects: false
         has_wiki: false
       matmul-pipeline-gpu:
+        archived: true
         description:
           A tekton pipeline that will build the image from Dockerfile,
           push the image to quay registry, pull that image and run the cuda code on
@@ -286,11 +302,8 @@ orgs:
         description: Project meteor
         has_projects: false
         has_wiki: false
-      meteor-operator:
-        description: Project meteor - operator
-        has_projects: false
-        has_wiki: false
       mlflow-tracking-operator:
+        archived: true
         description: MLFlow Tracking Operator for Kubernetes and OpenShift
         has_projects: true
       mlperf-inference-tekton-pipeline:
@@ -312,6 +325,7 @@ orgs:
         has_projects: false
         has_wiki: false
       olm-testing-example:
+        archived: true
         has_projects: true
       olm-testing-example-fork:
         archived: true
@@ -328,6 +342,7 @@ orgs:
         has_projects: false
         has_wiki: false
       peak:
+        archived: true
         has_projects: true
       peak-fork:
         archived: true
@@ -339,6 +354,7 @@ orgs:
         has_projects: false
         has_wiki: false
       pricingnbs:
+        archived: true
         has_projects: false
         has_wiki: false
       prometheus-anomaly-detector:
@@ -391,6 +407,7 @@ orgs:
         has_projects: false
         has_wiki: false
       repartitioning-sosreports:
+        archived: true
         has_projects: true
         has_wiki: false
         homepage: https://bluejeans.com/playback/s/IoprYiljTJIGuhuYm4xjCG722GFjkCYtjPuB51KNv271YxQSnZi9SmcTARxAtxhu
@@ -398,6 +415,7 @@ orgs:
         archived: true
         has_projects: true
       robo-doc:
+        archived: true
         default_branch: main
         has_projects: true
       s2i-custom-notebook:
@@ -406,6 +424,7 @@ orgs:
           dependencies
         has_projects: true
       safety-db:
+        archived: true
         description: A curated database of insecure Python packages
         has_issues: false
         has_projects: false
@@ -431,6 +450,7 @@ orgs:
         has_issues: false
         has_projects: true
       summit-2021-octo-keynote:
+        archived: true
         default_branch: main
         has_issues: true
         has_projects: false
@@ -459,6 +479,7 @@ orgs:
         description: Thanos on OpenShift
         has_projects: true
       ultrahook:
+        archived: true
         description: Ultrahook Client for OpenShift
         has_projects: false
         has_wiki: false
