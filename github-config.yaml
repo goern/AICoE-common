@@ -7,8 +7,6 @@ orgs:
       - goern
       - michaelclifford
       - sesheta
-      - shgriffi
-      - shuels
       - tumido
     billing_email: mhild@redhat.com
     company: "Red Hat, Inc."
@@ -264,6 +262,7 @@ orgs:
         has_wiki: false
         homepage: https://katacoda.com/aicoe
       log-anomaly-detector:
+        archived: true
         allow_squash_merge: false
         description:
           Log Anomaly Detection - Machine learning to detect abnormal events
